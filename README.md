@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Shravan7x
 - 👀 I’m interested in Blockchain
-- 🌱 I’m currently learning Frontend Development
+- 🌱 I’m currently learning Express js
 - 💞️ I’m looking to collaborate on Projects Related to Blockchain and web3
 - 📫 How to reach me ...
 - 😄 Pronouns: He
