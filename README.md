@@ -1,8 +1,8 @@
 - 👋 Hi, I’m @Shravan7x
-- 👀 I’m interested in Blockchain
+- 👀 I’m interested in MCP SERVERS
 - 🌱 I’m currently learning Express js
-- 💞️ I’m looking to collaborate on Projects Related to Blockchain and web3
-- 📫 How to reach me ...
+- 💞️ I’m looking to collaborate on Projects Related to MCP AND AI INTEGRATION IN MERN STACK APPLICATIONS
+- 📫 How to reach me - shravanp50rj3@gmail.com
 - 😄 Pronouns: He
 - ⚡ Fun fact: I only focus on one project at a time so can do multiple projects with more focus
 
