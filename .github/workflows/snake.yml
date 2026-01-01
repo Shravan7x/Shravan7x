@@ -1,28 +1,39 @@
-name: Generate Datas
+name: Generate Pacman
 
 on:
-  schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
+  schedule:
+    - cron: "0 0 * * *" # Runs every midnight
   workflow_dispatch:
 
 jobs:
   build:
-    name: Jobs to update datas
+    name: Generate Pacman Graph
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # <--- THIS IS THE KEY FIX
+      contents: write # REQUIRED for committing the file
     steps:
-      # Snake Animation
-      - uses: Platane/snk@v3
+      - uses: actions/checkout@v3
+
+      - name: Setup Go
+        uses: actions/setup-go@v4
         with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          go-version: '1.21'
+
+      - name: Run Pacman Generator
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # 1. Install the tool
+          go install github.com/sestinj/github-pacman-contribution@latest
+          
+          # 2. Create output directory
+          mkdir -p dist
+          
+          # 3. Generate the file (pacman.svg)
+          github-pacman-contribution --username ${{ github.repository_owner }} --output dist/pacman.svg
 
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
+      - name: Push to Output Branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
