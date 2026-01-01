@@ -37,7 +37,7 @@
 
 ### 👾 Contribution Graph
 <div align="center">
-  <img src="https://github.com/Shravan7x/Shravan7x/blob/output/pacman.svg" alt="pacman animation" />
+  <img src="https://github.com/Shravan7x/Shravan7x/blob/output/pacman-contribution-graph.svg" alt="pacman animation" />
 </div>
 
 ---
