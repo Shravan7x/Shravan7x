@@ -2,18 +2,15 @@ name: Generate Pacman
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Runs every midnight
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
   build:
     name: Generate Pacman Graph
     runs-on: ubuntu-latest
-    
-    # ⬇️ THIS IS THE PERMISSION YOU NEED ⬇️
     permissions:
-      contents: write 
-      
+      contents: write
     steps:
       - uses: actions/checkout@v3
 
@@ -29,11 +26,15 @@ jobs:
           # 1. Install the tool
           go install github.com/sestinj/github-pacman-contribution@latest
           
-          # 2. Create output directory
+          # 2. Update Path so we can find the tool (CRITICAL FIX)
+          export PATH=$PATH:$(go env GOPATH)/bin
+          
+          # 3. Create output directory
           mkdir -p dist
           
-          # 3. Generate the file (pacman.svg)
-          github-pacman-contribution --username ${{ github.repository_owner }} --output dist/pacman.svg
+          # 4. Generate the file
+          # We use $(go env GOPATH)/bin/ explicitly to force it to find the command
+          $(go env GOPATH)/bin/github-pacman-contribution --username ${{ github.repository_owner }} --output dist/pacman.svg
 
       - name: Push to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
