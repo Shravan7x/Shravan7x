@@ -13,7 +13,7 @@
 
   <p align="left">
     I am a final-year CS engineer building systems that actually work. I combine heavy backend logic with autonomous AI agents to solve real problems. <br><br>
-    I don't multitask. I practice strict <b>"Deep Work"</b>—picking one complex challenge and solving it completely before moving on.
+    <b>My Philosophy:</b> I build with a product mindset. I don't just write code; I architect reliable, scalable systems that drive real business value and stand the test of time.
   </p>
 
   <br>
@@ -26,7 +26,7 @@
   <br>
 
   <p align="left">
-   🚀 <b>Current Focus:</b> Going all-in on <b>AI Brain</b> (Startup)<br>
+   🚀 <b>Current Focus:</b> Going all-in on <b>@AI Brain</b> (Startup)<br>
    🤝 <b>Collaboration:</b> Looking for engineers & co-founders for <b>AI Brain</b><br>
    📫 <b>Reach Me:</b> <a href="mailto:shravanp50rj3@gmail.com">shravanp50rj3@gmail.com</a> • <a href="https://shravanportfolio-Portfoliodun.vercel.app"><b>View Portfolio ↗</b></a>
   </p>
