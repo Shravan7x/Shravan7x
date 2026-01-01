@@ -5,21 +5,28 @@
 
   <p align="center">
     <a href="https://github.com/Shravan7x">
-      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=333333&center=true&vCenter=true&width=600&lines=Building+AI+Brain+(Startup);Architecting+Autonomous+Agents;Finalist+@+Mumbai+Hacks+'25;IBM+Hackathon+Runner-up" alt="Typing SVG" />
+      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=333333&center=true&vCenter=true&width=600&lines=Building+AI+Brain+(Startup)..." alt="Typing SVG" />
     </a>
   </p>
 
   <br>
 
   <p align="left">
-    I bridge the gap between complex <b>Agentic AI</b> and production <b>MERN Architecture</b>. <br>
-    I practice strict <b>"Deep Work"</b>—executing one complex architecture at a time with 100% focus.
+    I am a final-year CS engineer building systems that actually work. I combine heavy backend logic with autonomous AI agents to solve real problems. <br><br>
+    I don't multitask. I practice strict <b>"Deep Work"</b>—picking one complex challenge and solving it completely before moving on.
   </p>
 
   <br>
 
   <p align="left">
-   🔭 <b>Current Focus:</b> Building <b>AI Brain</b> (Startup)<br>
+    🏆 <b>Runner-Up</b> @ IBM Agentic AI Hackathon <br>
+    🏅 <b>Finalist</b> @ Mumbai Hacks '25 (GenAI Track)
+  </p>
+
+  <br>
+
+  <p align="left">
+   🚀 <b>Current Focus:</b> Going all-in on <b>AI Brain</b> (Startup)<br>
    🤝 <b>Collaboration:</b> Looking for engineers & co-founders for <b>AI Brain</b><br>
    📫 <b>Reach Me:</b> <a href="mailto:shravanp50rj3@gmail.com">shravanp50rj3@gmail.com</a> • <a href="https://shravanportfolio-Portfoliodun.vercel.app"><b>View Portfolio ↗</b></a>
   </p>
@@ -28,9 +35,9 @@
 
 ---
 
-### 🐍 Contribution Graph
+### 👾 Contribution Graph
 <div align="center">
-  <img src="https://github.com/Shravan7x/Shravan7x/blob/output/github-contribution-grid-snake.svg" alt="snake animation" />
+  <img src="https://github.com/Shravan7x/Shravan7x/blob/output/pacman.svg" alt="pacman animation" />
 </div>
 
 ---
