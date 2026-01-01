@@ -9,8 +9,11 @@ jobs:
   build:
     name: Generate Pacman Graph
     runs-on: ubuntu-latest
+    
+    # ⬇️ THIS IS THE PERMISSION YOU NEED ⬇️
     permissions:
-      contents: write # REQUIRED for committing the file
+      contents: write 
+      
     steps:
       - uses: actions/checkout@v3
 
