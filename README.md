@@ -59,8 +59,11 @@
 <br>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Shravan7x&show_icons=true&theme=tokyonight&hide_border=true" height="180" alt="Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shravan7x&layout=compact&theme=tokyonight&hide_border=true" height="180" alt="Languages" />
+
+[![Stats](https://github-readme-stats.vercel.app/api?username=Shravan7x&show_icons=true&theme=dark&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Shravan7x&layout=compact&theme=dark&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
+
 </div>
 
 <div align="center">
